@@ -4,132 +4,27 @@
     font-family: monospace;
     color: rgba(255, 255, 255,0.8);
 }
-.container{
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-fluid{
     background-image: radial-gradient( circle 857px at 3.1% 9.3%, rgba(32,32,106,1) 0%, rgb(1, 2, 36) 100.1% );
-   
 }
-.heading{
-    display: flex;
-    align-items:center ;
-}
-.heading h1,.hicon{
-    margin: 0 0.5rem 1.5rem 0.5rem;
-    font-size: 2.7rem;
-}
-.profile{
-    width: 45%;
-}
-.search-div,.user-profile{
-    display: flex;
-}
-.search-div{
-    position: relative;
-    /* align-items: center; */
-}
-.search-div input{
-    padding: 1.5rem 1rem;
-    width: 100%;
-    font-size: 1.4rem;
-    border-radius: 10px;
-   
+
+ .search-div input{
     background-color: rgba(34, 34, 98, 0.8);
-    border: none;
-    outline: none;    
     
-}
+} 
 .search-btn{
-    width: 15%;
-    position: absolute;
-    right: 1rem;
-    /* top: 0.7rem; */
-    top: 17%;
-    font-size: 17px;
-    padding: 0.7rem 0;
-    background-color: rgb(73, 102, 249);
     
-    border: none;
-    outline: none;  
-    color: white;
-    border-radius: 8px;
-}
-.search-btn:hover{
+    background-color: rgb(73, 102, 249);
+
+} 
+ .search-btn:hover{
     background-color: rgb(24, 62, 251);
     cursor: pointer;
-}
-.user-profile{
+} 
+ .user-profile{
     background-color: rgba(34, 34, 98, 0.8);
     
-    margin-top: 0.5rem;
-    border-radius: 10px;
-    width: 100%;
-    justify-content: space-between;
-    /* align-items: center; */
-    padding: 3rem 1.5rem;
-}
-.user-img{
-    width: 22%;
-    
-}
-.user-img img{
-    width: 100%;
-    border-radius: 50%;
-    height: 18vh;
-    
-}
-.user-info{
-    width: 70%;
-}
-.username{
-    margin-bottom: 2rem;
-}
-.username h3{
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-.username p{
-    font-size: 17px;
-    margin-bottom: 7px;
-}
+} 
 .followrepo{
-    width: 100%;
     background-color: rgba(8, 8, 51,0.6);
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-    border-radius: 5px;
-    padding: 1rem 1.5rem ;
-    margin-bottom: 2rem;
-}
-.followrepo h4{
-    font-size: 17px;
-    margin-bottom: 5px;
-}
-.followrepo p{
-    text-align: center;
-    font-size: 16px;
-}
-.socials{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.location{
-    display: flex;
-    /* justify-content:space-around; */
-    width: 50%;
-    margin-top: 1rem;
-    padding-bottom: 10px;
-}
-.icon{
-    padding-right: 1rem;
-    font-size: 17px;
-}
-.location p{
-    font-size: 17px;
 }
